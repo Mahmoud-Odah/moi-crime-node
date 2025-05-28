@@ -41,6 +41,27 @@ Authorization: Bearer <your_token>
 
 ---
 
+## 📦 API Endpoints
+
+### 🔑 Authentication
+
+| Method | Route              | Description             |
+|--------|--------------------|-------------------------|
+| POST   | `/api/auth/login`  | Login and get JWT token |
+| POST   | `/api/auth/signup` | Register a new user     |
+
+### 👥 Users (Protected)
+
+| Method | Route              | Description         |
+|--------|--------------------|---------------------|
+| GET    | `/api/users`       | Get all users       |
+| GET    | `/api/users/:id`   | Get user by ID      |
+| POST   | `/api/users`       | Create a new user   |
+| PUT    | `/api/users/:id`   | Update user by ID   |
+| DELETE | `/api/users/:id`   | Delete user by ID   |
+
+---
+
 ## ⚙️ Running Locally
 
 ```bash
@@ -63,23 +84,4 @@ JWT_SECRET=your_jwt_secret
 
 npm start
 
----
 
-## 📦 API Endpoints
-
-### 🔑 Authentication
-
-| Method | Route              | Description             |
-|--------|--------------------|-------------------------|
-| POST   | `/api/auth/login`  | Login and get JWT token |
-| POST   | `/api/auth/signup` | Register a new user     |
-
-### 👥 Users (Protected)
-
-| Method | Route              | Description         |
-|--------|--------------------|---------------------|
-| GET    | `/api/users`       | Get all users       |
-| GET    | `/api/users/:id`   | Get user by ID      |
-| POST   | `/api/users`       | Create a new user   |
-| PUT    | `/api/users/:id`   | Update user by ID   |
-| DELETE | `/api/users/:id`   | Delete user by ID   |
