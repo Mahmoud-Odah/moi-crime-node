@@ -18,17 +18,6 @@ Authorization: Bearer <your_token>
 
 ---
 
-## ✨ Features
-
-- Interactive map displaying crimes by zone 
-- JWT-based login authentication
-- User listing with pagination and sorting
-- Add, edit, and delete users
-- Responsive design using Tailwind CSS
-- UI components powered by PrimeReact
-
----
-
 ## 🧰 Technologies Used
 
 - **Node.js** with **Express**
