@@ -14,7 +14,6 @@ This is the backend API for the MOI Crime Management Dashboard, built with Node.
 
 The API uses **JWT-based authentication**. After logging in, the client must include the JWT token in the `Authorization` header as a Bearer token:
 
-```http
 Authorization: Bearer <your_token>
 
 ---
